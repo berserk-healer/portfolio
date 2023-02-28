@@ -14,12 +14,13 @@ const FeatureProjects = () => {
                     <div className="project-content">
                         <div>
                             <p className="project-overline g-t">Feature Project</p>
-                            <h3 className="project-title"><a href="#" className="l-t">Aincrad Blog</a></h3>
+                            <h3 className="project-title"><a href="https://blog.bellcranel.click" className="l-t">Aincrad Blog</a></h3>
                             <div className="project-description d-t p-c">
                                 <p>A Blog App Built with Django & SQLite database. Features: CustomUser Model, CRUD posts, Comment Section, Rich Text Field & Search bar</p>
                             </div>
                             <ul className="project-tech-list d-t">
                                 <li>Django</li>
+                                <li>SQLite</li>
                             </ul>
                             <div className="project-links">
                                 <a href="https://github.com/berserk-healer/blog-app" target="_blank"><FontAwesomeIcon icon={faGithub} className='icon l-t' /></a>
@@ -35,7 +36,7 @@ const FeatureProjects = () => {
                     <div className="project-content">
                         <div>
                             <p className="project-overline g-t">Feature Project</p>
-                            <h3 className="project-title"><a href="#" className="l-t">Dall-E Clone</a></h3>
+                            <h3 className="project-title"><a href="https://dalle-clone-six.vercel.app/" className="l-t">Dall-E Clone</a></h3>
                             <div className="project-description d-t p-c">
                                 <p>MERN Stack Application for generating images powered by Dall-E, OpenAI API.</p>
                             </div>
